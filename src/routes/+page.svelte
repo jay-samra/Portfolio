@@ -1,25 +1,47 @@
-<!-- Navbar -->
-<section>
-    <div class="navbar bg-base-10">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-          </div>
-          <a href = '/' class="btn btn-ghost text-xl">Contact Me</a>
-        </div>
+<script lang=ts>
+    import { onMount } from 'svelte';
+    import * as THREE from 'three';
+    import NET from 'vanta/dist/vanta.net.min';
+    import FOG from 'vanta/dist/vanta.fog.min';
+
+    function vanta(node: HTMLElement) {
+        FOG({
+            el: "#background",
+            // THREE: THREE,
+            // mouseControls: true,
+            // touchControls: true,
+            // gyroControls: false,
+            // minHeight: 200.00,
+            // minWidth: 200.00
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            highlightColor: 0xe8d7b7,
+            midtoneColor: 0xe83333,
+            lowlightColor: 0xdca9bd,
+            baseColor: 0x7979dc,
+            blurFactor: 0.52,
+            speed: 1.40,
+            zoom: 3.00
+        })
+    }
+</script>
+
+<style>
+    #background {
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+    }
+</style>
+
+<!-- <section id="background"/> -->
+
+<!-- ABOVE IS ALL FOG FROM VANTA -->
+
+<section id="background" class="h-15 w-7">
         <!-- put hidden back in this  -->
         <div class="navbar-center justify-center min-w-[500px] lg:flex w-74 h-15 rounded-[50px] border border-solid border-bg-neutral-900" >
           <ul class="menu menu-horizontal px-1">
@@ -29,12 +51,17 @@
           </ul>
         </div>
         <!-- Right side of navbar-->
-        <div class="navbar-end">
-        </div>
-      </div>
 
 </section>
 
 <section>
+    <div class="min-h-[1000px]" use:vanta/>
+    <h1> New Section </h1>
+    <h1> New Section </h1>
+    <h1> New Section </h1>
+    <h1> New Section </h1>
+    <h1> New Section </h1>
+    <h1> New Section </h1>
+    <h1> New Section </h1>
     <h1> New Section </h1>
 </section>

@@ -9,6 +9,6 @@ export default {
 		extend: {}
 	},
 
-	plugins: [typography, forms, require('daisyui')]
+	plugins: [typography, forms, require('daisyui'), require('tailwind-hamburgers')]
 } satisfies Config;
 

@@ -14,7 +14,7 @@
 	let { children } = $props();
 
 
-	import '@fontsource-variable/cinzel';
+	import '@fontsource-variable/space-grotesk';
 </script>
 
 <ParaglideJS {i18n}>

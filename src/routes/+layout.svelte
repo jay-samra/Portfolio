@@ -11,10 +11,9 @@
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import '../app.css';
 	// import 'tailwindcss/t'
+	import '@fontsource/space-grotesk/500.css';
 	let { children } = $props();
 
-
-	import '@fontsource-variable/space-grotesk';
 </script>
 
 <ParaglideJS {i18n}>

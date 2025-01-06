@@ -76,14 +76,14 @@
 <main>
     <section id="backgroundNET" class="w-full h-screen" use:vantaNET>
       <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
-        <h1 class="text-7xl ">Hello, my name is Jagroop Singh.</h1>
+        <h1 class="text-7xl ">Hello, my name is Jagroop Singh</h1>
         <h2 class="text-5xl"> Aspiring full stack developer and data analyst</h2>
         <!-- Buttons -->
         <div>
           <button class="relative h-12 overflow-hidden rounded-md bg-neutral-950 px-5 py-2.5 text-white transition-all duration-300 hover:bg-neutral-800 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2">
               <span class="relative">Contact Me</span>
           </button>
-          <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-medium text-neutral-200 ml-4">
+          <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-gray-200 px-6 font-medium text-black ml-4">
               <span>View CV</span>
               <div class="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
                   <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5">
@@ -102,14 +102,11 @@
       <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
       </div>
       <div class ="bg-green flex flex-col items-center justify-center align-middle h-full content-between gap-10">
-        <h1 class="text-7xl text-[#FAF9F6]">I'm Jagroop Singh | <span class="special-font">ਜਗ ਸਿਂਗ </span> </h1>
+        <h1 class="text-7xl text-[#FAF9F6] ">I'm Jagroop Singh <span class="special-font">| ਜਗ ਸੀਂਗ </span> </h1>
   
         <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
-          <h2 class="text-2xl text-[#FAF9F6]"> COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY</h2>
-        </div>
-
-        <button type="button" class="cursor-pointer text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Blue</button>
-        
+          <h2 class="text-4xl text-[#FAF9F6]"> COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION</h2>
+        </div>        
       </div>
     </section>
 

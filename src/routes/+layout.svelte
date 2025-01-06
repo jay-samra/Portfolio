@@ -12,6 +12,7 @@
 	import '../app.css';
 	// import 'tailwindcss/t'
 	import '@fontsource/space-grotesk/500.css';
+    import '@fontsource/anek-gurmukhi/200.css'; 
 	let { children } = $props();
 
 </script>

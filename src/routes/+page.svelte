@@ -3,7 +3,9 @@
     import * as THREE from 'three';
     import NET from 'vanta/dist/vanta.net.min';
     import FOG from 'vanta/dist/vanta.fog.min';
-    import Menu from '../components/menu.svelte'
+    import GLOBE from 'vanta/dist/vanta.globe.min';
+    import Menu from '../components/menu.svelte';
+    import Projects from '../components/projects.svelte';
 
     function vanta(node: HTMLElement) {
         FOG({
@@ -19,7 +21,8 @@
             gyroControls: false,
             minHeight: 200.00,
             minWidth: 200.00,
-            highlightColor: 0xffa600,
+            // highlightColor: 0xffa600,
+            highlightColor:0x51615,
             midtoneColor: 0xff0000,
             lowlightColor: 0xff0063,
             baseColor: 0xffffff,
@@ -27,7 +30,25 @@
             speed: 1.40,
             zoom: 0.90
         })
+      }
+        function vantaNET(node: HTMLElement) {
+          GLOBE({
+          el: "#backgroundNET",
+          THREE: THREE,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0xff3f8e,
+          color2: 0x0,
+          backgroundColor: 0xFAF9F6
+        })
     }
+
+
 </script>
 
 
@@ -53,32 +74,52 @@
 </nav>
 
 <main>
-    <section id="background" class="w-full h-screen" use:vanta>
-      <div class ="flex flex-col items-center justify-center align-middle h-full content-between gap-10">
-        <h1 class="text-7xl ">Hello, my name is Jagroop Singh!</h1>
-        <h2 class="text-5xl"> I am a full stack developer and data analyst</h2>
-        <button type="button" class="cursor-pointer text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Blue</button>
-        <!-- <div class="absolute bottom-0 w-full h-16 bg-gradient-to-t from-[#f8f8f8] via-transparent"></div> -->
+    <section id="backgroundNET" class="w-full h-screen" use:vantaNET>
+      <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
+        <h1 class="text-7xl ">Hello, my name is Jagroop Singh.</h1>
+        <h2 class="text-5xl"> Aspiring full stack developer and data analyst</h2>
+        <!-- Buttons -->
+        <div>
+          <button class="relative h-12 overflow-hidden rounded-md bg-neutral-950 px-5 py-2.5 text-white transition-all duration-300 hover:bg-neutral-800 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2">
+              <span class="relative">Contact Me</span>
+          </button>
+          <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-medium text-neutral-200 ml-4">
+              <span>View CV</span>
+              <div class="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5">
+                      <path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                  </svg>
+              </div>
+          </button>
       </div>
-      <svg class="absolute bottom-0 w-full z-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#333333" fill-opacity="1" d="M0,128L48,144C96,160,192,192,288,192C384,192,480,160,576,133.3C672,107,768,85,864,106.7C960,128,1056,192,1152,202.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
+  
     </section>
 
+    
     <!-- add 'second-section' to section class for gradient -->
     <section class="bg-[#333333] min-h-screen ">
+      <div class="py-8">
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+      </div>
       <div class ="bg-green flex flex-col items-center justify-center align-middle h-full content-between gap-10">
-        <h1 class="text-7xl text-[#FAF9F6]">Here are my projects!</h1>
-        <h2 class="text-5xl text-[#FAF9F6]"> Here is my Resume! </h2>
+        <h1 class="text-7xl text-[#FAF9F6]">I'm Jagroop Singh | <span class="special-font">ਜਗ ਸਿਂਗ </span> </h1>
+  
+        <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
+          <h2 class="text-2xl text-[#FAF9F6]"> COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY</h2>
+        </div>
+
         <button type="button" class="cursor-pointer text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Blue</button>
+        
       </div>
     </section>
 
     <section class="bg-[#FAF9F6] min-h-screen">
       <div class ="bg-green flex flex-col items-center justify-center align-middle h-full content-between gap-10">
+        <hr class="w-48 h-1 mx-auto my-4 bg-[#333333] border-0 rounded md:my-10 dark:bg-gray-700">
         <h1 class="text-7xl">Here are my projects!</h1>
         <h2 class="text-5xl"> Here is my Resume! </h2>
-        <button type="button" class="cursor-pointer text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Blue</button>
+        <button class="group relative h-12 overflow-hidden overflow-x-hidden rounded-md bg-neutral-950 px-8 py-2 text-neutral-50"><span class="relative z-10">Hover Me</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full rounded-full bg-blue-500 transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
+        
         
         <!-- Project Cards -->
         <div class="flex space-x-5">

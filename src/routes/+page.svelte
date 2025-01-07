@@ -65,7 +65,7 @@
               <ul class="menu menu-horizontal px-1">
                 <li class="text-lg"><a href = 'https://www.linkedin.com/in/jagroop-s-sam18731/'>LinkedIn</a></li>
                 <li><a class="text-lg" href = 'https://github.com/jay-samra'>GitHub</a></li>
-                <li><a class="text-lg" href = 'https://www.linkedin.com/in/jagroop-s-sam18731/'>Resume</a></li>
+                <li><a class="text-lg" href = '/resume.pdf' target='_blank'>Resume</a></li>
             </ul>
             </div>
           </div>
@@ -83,6 +83,7 @@
           <button class="relative h-12 overflow-hidden rounded-md bg-neutral-950 px-5 py-2.5 text-white transition-all duration-300 hover:bg-neutral-800 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2">
               <span class="relative">Contact Me</span>
           </button>
+          <a href="/resume.pdf" target="_blank" >
           <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-gray-200 px-6 font-medium text-black ml-4">
               <span>View CV</span>
               <div class="w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-1 group-hover:opacity-100">
@@ -91,21 +92,23 @@
                   </svg>
               </div>
           </button>
+        </a>
       </div>
   
     </section>
 
     
     <!-- add 'second-section' to section class for gradient -->
-    <section class="bg-[#333333] min-h-screen ">
+     <!-- OR #FAFAFA -->
+    <section class="bg-[#FAFAFA] min-h-screen ">
       <div class="py-8">
-      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-700 border-0 rounded md:my-10 dark:bg-gray-700">
       </div>
       <div class ="bg-green flex flex-col items-center justify-center align-middle h-full content-between gap-10">
-        <h1 class="text-7xl text-[#FAF9F6] ">I'm Jagroop Singh <span class="special-font">| ਜਗ ਸੀਂਗ </span> </h1>
+        <h1 class="text-7xl text-[#333333] ">I'm Jagroop Singh <span class="special-font">| ਜਗ ਸੀਂਗ </span> </h1>
   
         <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
-          <h2 class="text-4xl text-[#FAF9F6]"> COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION</h2>
+          <h2 class="text-4xl text-[#333333]">  COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION</h2>
         </div>        
       </div>
     </section>
@@ -113,39 +116,83 @@
     <section class="bg-[#FAF9F6] min-h-screen">
       <div class ="bg-green flex flex-col items-center justify-center align-middle h-full content-between gap-10">
         <hr class="w-48 h-1 mx-auto my-4 bg-[#333333] border-0 rounded md:my-10 dark:bg-gray-700">
-        <h1 class="text-7xl">Here are my projects!</h1>
-        <h2 class="text-5xl"> Here is my Resume! </h2>
-        <button class="group relative h-12 overflow-hidden overflow-x-hidden rounded-md bg-neutral-950 px-8 py-2 text-neutral-50"><span class="relative z-10">Hover Me</span><span class="absolute inset-0 overflow-hidden rounded-md"><span class="absolute left-0 aspect-square w-full origin-center -translate-x-full rounded-full bg-blue-500 transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span></span></button>
-        
+        <h1 class="text-7xl">Here are some of my Projects!</h1>
         
         <!-- Project Cards -->
-        <div class="flex space-x-5">
+        <div class="flex flex-nowrap space-x-5">
           <!-- Card 1 -->
-        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="/favicon.png" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Domestic Violence Data Analysis Website</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A Global & National Case Study on Domestic Violence</p>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+            <!-- Card 2 -->
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Domestic Violence Data Analysis Website</h5>
+                  <img class="rounded-t-lg" src="/favicon.png" alt="" />
               </a>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A Global & National Case Study on Domestic Violence</p>
-              <a href="https://github.com/jay-samra/Domestic-Violence-Data-Analysis-Website" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <div class="p-5">
+                  <a href="#">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tutoring Company Website</h5>
+                  </a>
+                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A fully functional, responsive website for a tutoring startup</p>
+                  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Read more
+                       <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                      </svg>
+                  </a>
+              </div>
+          </div>
+        <!-- Card 3 -->
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="/favicon.png" alt="" />
+          </a>
+          <div class="p-5">
+              <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio Website</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A personal portfolio website displaying my experience, projects, and skills</p>
+              <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Read more
-                  <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                   <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                   </svg>
               </a>
           </div>
-            <!-- Card 1 -->
-          <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tutoring Company Website</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A fully functional, responsive website for a tutoring startup</p>
-            <a href="https://github.com/wesbruh/TutorWebsite" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Read more
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-            </a>
-        </div>
+      </div>
+        <!-- Card 4 -->
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="/favicon.png" alt="" />
+          </a>
+          <div class="p-5">
+              <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Unhoused Assistance Website</h5>
+              </a>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A personal portfolio website displaying my experience, projects, and skills</p>
+              <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  Read more
+                   <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                  </svg>
+              </a>
+          </div>
+      </div>
+
       </div>
       
     

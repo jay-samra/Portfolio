@@ -97,7 +97,7 @@
   
     </section>
 
-    
+    <!-- About Me -->
     <!-- add 'second-section' to section class for gradient -->
      <!-- OR #FAFAFA -->
     <section class="bg-[#FAFAFA] min-h-screen ">
@@ -108,9 +108,15 @@
         <h1 class="text-7xl text-[#333333] ">I'm Jagroop Singh <span class="special-font">| ਜਗ ਸੀਂਗ </span> </h1>
   
         <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
-          <h2 class="text-4xl text-[#333333]">  COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION</h2>
-        </div>        
+          <h2 class="text-4xl text-[#333333] indent-10">  COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION</h2>
+          <h2 class="text-4xl text-[#333333] indent-10">  THROUGH MY ACADEMIC JOURNEY AND HANDS-ON EXPERIENCE, I HAVE DEVELOPED STRONG FOUNDATIONS IN INDUSTRY-POPULAR LANGUAGES & TECHNOLOGIES SUCH AS PYTHON, JAVASCRIPT, JAVA, MACHINE LEARNING.</h2>
+          <h2 class="text-4xl text-[#333333] indent-10">  I HAVE ALSO DEVELOPED VARIOUS DATA ANALYSIS SKILLS SUCH AS REGRESSION ANALYSIS, CLUSTERING, AND DATA PREPROCESSING. I AM EAGER TO APPLY THESE SKILLS IN REAL-WORLD CONTEXTS WHERE I CAN LEARN FROM MENTORS, AND ADVANCE ORGANIZATIONAL PROJECTS. </h2>
+
+
+        </div>  
+              
       </div>
+      
     </section>
 
     <section class="bg-[#FAF9F6] min-h-screen">
@@ -123,7 +129,7 @@
           <!-- Card 1 -->
           <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img class="rounded-t-lg" src="/favicon.png" alt="" />
+                <img class="rounded-t-lg" src="/newplot.png" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
@@ -141,7 +147,7 @@
             <!-- Card 2 -->
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                  <img class="rounded-t-lg" src="/favicon.png" alt="" />
+                  <img class="rounded-t-lg" src="/tutor2.png" alt="" />
               </a>
               <div class="p-5">
                   <a href="#">
@@ -159,7 +165,7 @@
         <!-- Card 3 -->
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-              <img class="rounded-t-lg" src="/favicon.png" alt="" />
+              <img class="rounded-t-lg" src="/svelteKit.png" alt="" />
           </a>
           <div class="p-5">
               <a href="#">

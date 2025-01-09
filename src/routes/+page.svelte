@@ -5,9 +5,7 @@
     import FOG from 'vanta/dist/vanta.fog.min';
     import GLOBE from 'vanta/dist/vanta.globe.min';
     import Menu from '../components/menu.svelte';
-
     import Wave from '../components/wave.svelte';
-    // import Wave from 'components/menu.svelte'
 
     function vanta(node: HTMLElement) {
         FOG({
@@ -82,9 +80,11 @@
         <h2 class="text-5xl "> Aspiring full stack developer & data analyst</h2>
         <!-- Buttons -->
         <div>
+          <a href="/contact" target="_blank">
           <button class="relative h-12 overflow-hidden rounded-md bg-neutral-950 px-5 py-2.5 text-white transition-all duration-300 hover:bg-neutral-800 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2">
               <span class="relative">Contact Me</span>
           </button>
+        </a>
           <a href="/resume.pdf" target="_blank" >
           <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-gray-200 px-6 font-medium text-black ml-4">
               <span>View CV</span>
@@ -287,6 +287,7 @@
         <h3 class="text-white text-center ">&#127880 Made by Jagroop Singh &#127880</h3>
       </div>
     </section>
+
 </main>
 
 

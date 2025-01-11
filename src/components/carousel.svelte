@@ -9,7 +9,8 @@ let plugins = [Autoplay()]
 
 <div class="carousel carousel-center rounded-box">
   <div class="carousel-item">
-    <img src="realpythonremovebgpreview.png" alt="Pizza" />
+      <img src="realpythonremovebgpreview.png" 
+      alt="Pizza" />
   </div>
   <div class="carousel-item">
     <img
@@ -21,20 +22,34 @@ let plugins = [Autoplay()]
       src="javaremovebgpreview.png"
       alt="Pizza" />
   </div>
+  
   <div class="carousel-item">
     <img
-      src="Reactremovebgpreview.png"
+      src="clogoremovebgpreview.png"
+      alt="Pizza" />
+  </div>
+  
+  <div class="carousel-item">
+    <img
+      src="realscikit1.png"
+      alt="Pizza" />
+  </div>
+  
+  <div class="carousel-item">
+    <img
+      src="js.png"
+      alt="Pizza" />
+  </div>
+  
+  <div class="carousel-item">
+    <img
+      src="typeremovebgpreview.png"
       alt="Pizza" />
   </div>
   <div class="carousel-item">
-    <img src="realscikitremovebgpreview.png" alt="Pizza" />
-  </div>
-  <div class="carousel-item">
-    <img src="typeremovebgpreview.png" alt="Pizza" />
-  </div>
-  <div class="carousel-item">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+      src="svelteKit1.png"
       alt="Pizza" />
   </div>
+
 </div>

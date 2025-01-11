@@ -132,7 +132,9 @@
         <div class="pt-10">
         <h1 class="text-7xl">My Tech Stack</h1>
       </div>
-              <Carousel></Carousel>
+      <div class="pb-10">
+              <Carousel ></Carousel>
+            </div>
       </div>
       
     </section>

@@ -6,6 +6,7 @@
     import GLOBE from 'vanta/dist/vanta.globe.min';
     import Menu from '../components/menu.svelte';
     import Wave from '../components/wave.svelte';
+    import Carousel from '../components/carousel.svelte';
 
     function vanta(node: HTMLElement) {
         FOG({
@@ -128,7 +129,10 @@
 
 
         </div>  
-              
+        <div class="pt-10">
+        <h1 class="text-7xl">My Tech Stack</h1>
+      </div>
+              <Carousel></Carousel>
       </div>
       
     </section>

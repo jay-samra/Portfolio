@@ -14,7 +14,7 @@ let plugins = [Autoplay()]
   </div>
   <div class="carousel-item">
     <img
-      src="expressremovebgpreview.png"
+      src="clogoremovebgpreview.png"
       alt="Pizza" />
   </div>
   <div class="carousel-item">
@@ -25,7 +25,7 @@ let plugins = [Autoplay()]
   
   <div class="carousel-item">
     <img
-      src="clogoremovebgpreview.png"
+      src="expressremovebgpreview.png"
       alt="Pizza" />
   </div>
   

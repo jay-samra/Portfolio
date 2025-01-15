@@ -123,8 +123,8 @@
         <h1 class="text-7xl text-[#333333] ">I'm Jagroop Singh <span class="special-font">| ਜਗ ਸੀਂਗ </span> </h1>
   
         <div class ="flex flex-col items-left pl-20 justify-center align-middle h-full content-between gap-10">
-          <h2 class="text-3xl text-[#333333] indent-10">  COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION</h2>
-          <h2 class="text-3xl text-[#333333] indent-10">  THROUGH MY ACADEMIC JOURNEY AND HANDS-ON EXPERIENCE, I HAVE DEVELOPED STRONG FOUNDATIONS IN INDUSTRY-POPULAR LANGUAGES & TECHNOLOGIES SUCH AS PYTHON, JAVASCRIPT, JAVA, MACHINE LEARNING.</h2>
+          <h2 class="text-3xl text-[#333333] indent-10">  COMPUTER SCIENCE STUDENT @CSUS WHO IS PASSIONATE TO USE TECHNOLOGY IN ORDER TO ADDRESS SOME OF THE MOST PRESSING ISSUES TODAY AND EMBRACES LEADERSHIP POSITIONS TO HELP TEAMS SUCCEED IN THEIR MISSION.</h2>
+          <h2 class="text-3xl text-[#333333] indent-10">  THROUGH MY ACADEMIC JOURNEY AND HANDS-ON EXPERIENCE, I HAVE DEVELOPED STRONG FOUNDATIONS IN INDUSTRY-POPULAR LANGUAGES & TECHNOLOGIES SUCH AS PYTHON, JAVASCRIPT, JAVA, AND MACHINE LEARNING.</h2>
           <h2 class="text-3xl text-[#333333] indent-10">  I HAVE ALSO DEVELOPED VARIOUS DATA ANALYSIS SKILLS SUCH AS REGRESSION ANALYSIS, CLUSTERING, AND DATA PREPROCESSING. I AM EAGER TO APPLY THESE SKILLS IN REAL-WORLD CONTEXTS WHERE I CAN LEARN FROM MENTORS, AND ADVANCE ORGANIZATIONAL PROJECTS. </h2>
 
 
@@ -180,7 +180,22 @@
                   </div>
               </div>
           </div>
-        <!-- Card 3 -->
+              <!-- Card 3 -->
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+          <img class="w-full h-56 object-cover rounded-t-lg" src="/energy.png" alt="" />
+      </a>
+      <div class="p-5">
+          <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">NYC Energy Analysis Dashboard</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Analyzing New York City's energy usage</p>
+          <a href="https://github.com/jay-samra/NYC-Energy-Analysis" target = "_blank">
+            <button class="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-neutral-950 py-1 pl-6 pr-14 font-medium text-neutral-50"><span class="z-10 pr-2">View Project</span><div class="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-neutral-700 transition-[width] group-hover:w-[calc(100%-8px)]"><div class="mr-3.5 flex items-center justify-center"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-50"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></div></button>
+          </a>   
+      </div>
+  </div>
+        <!-- Card 4 -->
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
               <img class="w-full h-56 object-cover rounded-t-lg" src="/svelteKit.png" alt="" />
@@ -196,7 +211,7 @@
               
           </div>
       </div>
-        <!-- Card 4 -->
+        <!-- Card 5 -->
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
               <img class="w-full h-56 object-cover rounded-t-lg" src="/favicon.png" alt="" />
@@ -211,7 +226,7 @@
               </a>   
           </div>
       </div>
-      <!-- Card 5 -->
+      <!-- Card 6 -->
       <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
             <img class="w-full h-56 object-cover rounded-t-lg" src="/java.png" alt="" />
@@ -227,7 +242,7 @@
             </a>           
           </div>
     </div>
-    <!-- Card 6 -->
+    <!-- Card 7 -->
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
           <img class="w-full h-56 object-cover rounded-t-lg" src="/clogo.jpg" alt="" />
@@ -243,7 +258,7 @@
       </div>
   </div>
 
-              <!-- Card 7 -->
+              <!-- Card 8 -->
               <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="w-full h-56 object-cover rounded-t-lg" src="/leetcode.png" alt="" />
@@ -260,9 +275,11 @@
             </div>
 
       </div>
+      <div class = "pt-8">
     <a href="https://github.com/jay-samra" target="_blank">
-    <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950 px-6 font-medium text-neutral-200"><span>View My Entire Github Repository</span><div class="ml-1 transition group-hover:translate-x-1"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
+    <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950  px-6 font-medium text-neutral-200"><span>View My Entire Github Repository</span><div class="ml-1 transition group-hover:translate-x-1"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
     </a>
+    </div>
     </div>
     </section>
 

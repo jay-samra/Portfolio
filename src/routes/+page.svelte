@@ -67,7 +67,7 @@
               <ul class="menu menu-horizontal px-1">
                 <li class="text-lg"><a href = '/contact' target = '_blank'>Contact Me</a></li>
                 <li><a class="text-lg" href = 'http://www.linkedin.com/in/jagroop-s-sam18731' target="_blank">LinkedIn</a></li>
-                <li><a class="text-lg" href = '/resume.pdf' target='_blank'>Resume</a></li>
+                <li><a class="text-lg" href = '/newResume.pdf' target='_blank'>Resume</a></li>
             </ul>
             </div>
           </div>
@@ -152,7 +152,7 @@
 
                     </div>
                   </div>
-                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-5 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
                     <span class="text-lime-400 font-bold text-s">#1</span>
                     <span class="text-gray-800 font-bold text-3xl"> UI Design</span>
                     <p class="text-neutral-800">I have built various user-friendly UIs with conscious effort of making the customer experience as smooth as possible</p>
@@ -173,7 +173,7 @@
 
                     </div>
                   </div>
-                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-5 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
                     <span class="text-lime-400 font-bold text-s">#2</span>
                     <span class="text-gray-800 font-bold text-3xl">Backend Execution</span>
                     <p class="text-neutral-800">I have experience implementing a wide range of backend services tailored to meet the specific needs of a variety of clients</p>
@@ -193,7 +193,7 @@
 
                     </div>
                   </div>
-                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-5 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
                     <span class="text-lime-400 font-bold text-s">#3</span>
                     <span class="text-gray-800 font-bold text-3xl">Data Analysis</span>
                     <p class="text-neutral-800">I enjoy working on meaningful Data Analysis projects through the utilization of new technologies to support my community</p>

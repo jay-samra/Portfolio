@@ -43,9 +43,10 @@
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
-          color: 0xff3f8e,
+          // ff3f8e
+          color: 0xffb766,
           color2: 0x0,
-          backgroundColor: 0xFAF9F6
+          backgroundColor: 0xFAF9F6 
         })
     }
 
@@ -134,157 +135,72 @@
 
         </div>  
         <div class="pt-10">
-        <h1 class="text-7xl">My Interests</h1>
+        <h1 class="text-6xl"> My Skills</h1>
       </div>
       
       
-      <div class="pb-10 flex flex-wrap" >
-             
-<article
-  class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
->
-  <div class="w-200 rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
-    <time class="block text-xs text-gray-500" datetime="2019-06-29">
-      
-    </time>
+      <div class="pb-10 flex flex-wrap justify-evenly gap-6 mx-8" >
+            <!-- Card #1 -->      
+                <div class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 h-72 w-96  rounded-2xl hover:duration-700 duration-700  border-black">
+                  <div class="w-96 h-72 bg-[#c2edda] text-gray-800">
+                    <div class="flex flex-row justify-between">
+                  <path class="" d="M15.8,32.9V15.8m0,0H32.9m-17.1,0L37.2,37.2m47-4.3V15.8m0,0H67.1m17.1,0L62.8,37.2m-47,29.9V84.2m0,0H32.9m-17.1,0L37.2,62.8m47,21.4L62.8,62.8M84.2,84.2V67.1m0,17.1H67.1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                  </path>
 
-    <a href="#">
-      <h3 class="mt-0.5 text-lg font-medium text-gray-900">
-        UI Design
-      </h3>
-    </a>
+                  <path class="svg-stroke-primary" d="M50,17.4h0M50,50h0m0,32.6h0M50,22a4.7,4.7,0,1,1,4.7-4.6A4.7,4.7,0,0,1,50,22Zm0,32.7A4.7,4.7,0,1,1,54.7,50,4.7,4.7,0,0,1,50,54.7Zm0,32.6a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,50,87.3Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                  </path>
 
-    <div class="mt-4 flex flex-wrap gap-1">
+                    </div>
+                  </div>
+                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+                    <span class="text-lime-400 font-bold text-s">#1</span>
+                    <span class="text-gray-800 font-bold text-3xl"> UI Design</span>
+                    <p class="text-neutral-800">I have built various user-friendly UIs with conscious effort of making the customer experience as smooth as possible</p>
+                  </div>
 
-
-      <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-                 <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-      
-        
-      </span>
-    </div>
-  </div>
-</article>
-
-<article
-  class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
->
-  <div class="w-200 rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
-    <time class="block text-xs text-gray-500" datetime="2019-06-29">
-      
-    </time>
-
-    <a href="#">
-      <h3 class="mt-0.5 text-lg font-medium text-gray-900">
-        Backend Implementation
-      </h3>
-    </a>
-
-    <div class="mt-4 flex flex-wrap gap-1">
+                </div>
 
 
-      <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-                 <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-      
-        
-      </span>
-    </div>
-  </div>
-</article>
+                           <!-- Card #2 -->      
+                <div class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 h-72 w-96  rounded-2xl hover:duration-700 duration-700">
+                  <div class="w-96 h-72 bg-lime-400 text-gray-800">
+                    <div class="flex flex-row justify-between">
+                  <path class="" d="M15.8,32.9V15.8m0,0H32.9m-17.1,0L37.2,37.2m47-4.3V15.8m0,0H67.1m17.1,0L62.8,37.2m-47,29.9V84.2m0,0H32.9m-17.1,0L37.2,62.8m47,21.4L62.8,62.8M84.2,84.2V67.1m0,17.1H67.1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                  </path>
 
-<article
-  class="hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]"
->
-  <div class="w-200 rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
-    <time class="block text-xs text-gray-500" datetime="2019-06-29">
-      
-    </time>
+                  <path class="svg-stroke-primary" d="M50,17.4h0M50,50h0m0,32.6h0M50,22a4.7,4.7,0,1,1,4.7-4.6A4.7,4.7,0,0,1,50,22Zm0,32.7A4.7,4.7,0,1,1,54.7,50,4.7,4.7,0,0,1,50,54.7Zm0,32.6a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,50,87.3Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                  </path>
 
-    <a href="#">
-      <h3 class="mt-0.5 text-lg font-medium text-gray-900">
-        Data Analysis
-      </h3>
-    </a>
+                    </div>
+                  </div>
+                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+                    <span class="text-lime-400 font-bold text-s">#2</span>
+                    <span class="text-gray-800 font-bold text-3xl">Backend Execution</span>
+                    <p class="text-neutral-800">I have experience implementing a wide range of backend services tailored to meet the specific needs of a variety of clients</p>
+                  </div>
 
-    <div class="mt-4 flex flex-wrap gap-1">
+                </div>
 
+                   <!-- Card #3 -->      
+                <div class="relative group duration-500 cursor-pointer group overflow-hidden relative text-gray-50 h-72 w-96  rounded-2xl hover:duration-700 duration-700">
+                  <div class="w-96 h-72 bg-[#C0D6E8] text-gray-800">
+                    <div class="flex flex-row justify-between">
+                  <path class="" d="M15.8,32.9V15.8m0,0H32.9m-17.1,0L37.2,37.2m47-4.3V15.8m0,0H67.1m17.1,0L62.8,37.2m-47,29.9V84.2m0,0H32.9m-17.1,0L37.2,62.8m47,21.4L62.8,62.8M84.2,84.2V67.1m0,17.1H67.1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                  </path>
 
-      <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-            <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-                 <span
-        class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600"
-      >
-      
-        
-      </span>
-    </div>
-  </div>
-</article>
+                  <path class="svg-stroke-primary" d="M50,17.4h0M50,50h0m0,32.6h0M50,22a4.7,4.7,0,1,1,4.7-4.6A4.7,4.7,0,0,1,50,22Zm0,32.7A4.7,4.7,0,1,1,54.7,50,4.7,4.7,0,0,1,50,54.7Zm0,32.6a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,50,87.3Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                  </path>
 
-            </div>
+                    </div>
+                  </div>
+                  <div class="absolute bg-gray-50 -bottom-24 w-96 p-4 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+                    <span class="text-lime-400 font-bold text-s">#3</span>
+                    <span class="text-gray-800 font-bold text-3xl">Data Analysis</span>
+                    <p class="text-neutral-800">I enjoy working on meaningful Data Analysis projects through the utilization of new technologies to support my community</p>
+                  </div>
+
+                </div>
+        </div>
       
       
           </div>
@@ -400,9 +316,9 @@
         </a>
         <div class="p-5">
             <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Movie Sorting and Management System</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Movie Recommender</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Recommends movies based on characteristics chosen by user</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Recommends movies based on characteristics and filters chosen by customer</p>
             
             <a href="https://github.com/jay-samra/MovieRecommender" target = "_blank">
               <button class="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-neutral-950 py-1 pl-6 pr-14 font-medium text-neutral-50"><span class="z-10 pr-2">View Project</span><div class="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-neutral-700 transition-[width] group-hover:w-[calc(100%-8px)]"><div class="mr-3.5 flex items-center justify-center"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-50"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></div></button>
@@ -434,7 +350,7 @@
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Neetcode: Blind 75</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Solving Neetcode's Blind 75 practice interview questions in an efficient manner to help student prepare for technical interviews</p>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Solving Neetcode's Blind 75 practice interview questions in an efficient manner to help students prepare for technical interviews</p>
                     <a href="https://github.com/jay-samra/blind75" target = "_blank">
                       <button class="group relative inline-flex h-[calc(48px+8px)] items-center justify-center rounded-full bg-neutral-950 py-1 pl-6 pr-14 font-medium text-neutral-50"><span class="z-10 pr-2">View Project</span><div class="absolute right-1 inline-flex h-12 w-12 items-center justify-end rounded-full bg-neutral-700 transition-[width] group-hover:w-[calc(100%-8px)]"><div class="mr-3.5 flex items-center justify-center"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-50"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></div></button>
                     </a>   
@@ -460,7 +376,7 @@
       </div>
       <div class = "pt-8">
     <a href="https://github.com/jay-samra" target="_blank">
-    <button class="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-neutral-950  px-6 font-medium text-neutral-200"><span>View My Entire Github Repository</span><div class="ml-1 transition group-hover:translate-x-1"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
+    <button class="group relative inline-flex h-24 items-center justify-center overflow-hidden rounded-md bg-neutral-950  px-6 font-medium text-neutral-200"><span>View My Entire Github Repository</span><div class="ml-1 transition group-hover:translate-x-1"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></div></button>
     </a>
     </div>
     </div>
@@ -500,7 +416,7 @@
         </figure>
         <div class="card-body max-w-[500px]">
           <h2 class="card-title">Machine Learning: An Automated Future</h2>
-          <p>Writing sample on the importance of Machine Learning, its implications, and areas in which it can still grow.</p>
+          <p>Writing sample on the importance of Machine Learning, its implications, and areas in which it can still grow as technology advances.</p>
           <div class="card-actions justify-end">
             <a href="writingsample.pdf" target="_blank">
             <button class="btn btn-black">Read</button>
